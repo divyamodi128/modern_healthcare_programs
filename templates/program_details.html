@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+            <!-- Content here -->
+    <div class="container-md">
+    <h1>Hello, world!</h1>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/program_list">List</a></li>
+          <!-- <li class="breadcrumb-item"><a href="#">Library</a></li> -->
+          <li class="breadcrumb-item active" aria-current="page">{{ data.program_detail.name }}</li>
+        </ol>
+      </nav>
+        <blockquote class="blockquote">
+            <div class="container">
+            <h3 class="display-5">{{ data.program_detail.name }}</h3>
+            <p class="lead">{{ data.program_detail.descriptions }}</p>
+            </div>
+        </blockquote>
+        {% for row in data.section_list %}
+        <a href="/section_details/{{ data.program_detail.id }}/{{ row.id }}" class="item-wrap fancybox">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+            <h3 class="display-5">{{ row.order_index }}.&nbsp;{{ row.name }}</h3>
+            <p class="lead">{{ row.descriptions }}</p>
+            <p class="lead">{{ row.image_url }}</p>
+            </div>
+        </div>
+        </a>
+        {% endfor %}
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
