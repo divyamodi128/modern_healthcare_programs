@@ -70,12 +70,12 @@ Note: All the list apis are capable of adding new records in database.
 ## Screenshots
 1. program_list.html
 
-![alt text](https://github.com/divyamodi128/modern_healthcare_programs/tree/master/templates/screenshots/screenshot1.jpg?raw=true)
+![alt text](https://github.com/divyamodi128/modern_healthcare_programs/tree/master/templates/screenshots/screenshot1.png?raw=true)
 
 2. progrma_detials.html
 
-![alt text](https://github.com/divyamodi128/modern_healthcare_programs/tree/master/templates/screenshots/screenshot2.jpg?raw=true)
+![alt text](https://github.com/divyamodi128/modern_healthcare_programs/tree/master/templates/screenshots/screenshot2.png?raw=true)
 
 3. section_detials.html
 
-![alt text](https://github.com/divyamodi128/modern_healthcare_programs/tree/master/templates/screenshots/screenshot3.jpg?raw=true)
+![alt text](https://github.com/divyamodi128/modern_healthcare_programs/tree/master/templates/screenshots/screenshot3.png?raw=true)
