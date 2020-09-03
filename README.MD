@@ -67,3 +67,15 @@ Note: All the list apis are capable of adding new records in database.
         /fixtures.json
 ```
 
+## Screenshots
+1. program_list.html
+
+![alt text](https://github.com/divyamodi128/modern_healthcare_programs/blob/master/screenshot1.jpg?raw=true)
+
+2. progrma_detials.html
+
+![alt text](https://github.com/divyamodi128/modern_healthcare_programs/blob/master/screenshot2.jpg?raw=true)
+
+3. section_detials.html
+
+![alt text](https://github.com/divyamodi128/modern_healthcare_programs/blob/master/screenshot3.jpg?raw=true)
